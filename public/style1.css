@@ -1,0 +1,127 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+a{
+    display: inline-block;
+    height:2rem;
+    border-left: 0.5px solid grey;
+    padding:0px 40px;
+    box-sizing: border-box;
+    color:#000000;
+    text-decoration: none;    
+}
+a:hover{
+    text-decoration: underline;
+}
+a:first-of-type{
+    margin-left:50%;
+}
+
+
+label{
+    color:white;
+}
+main {
+    width: 50rem;
+    margin: 0 auto;
+}
+#land{
+    overflow:hidden;
+    height:500px;
+    background: url('https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    width:50rem;
+}
+
+#back{
+    display: flex;
+    background-color: #e0315a;
+    border: 8px solid #cc263c;
+    border-radius: 0.5em;
+    width: 50rem;
+    height: 10rem;
+    padding:12px;
+    margin:30px 0px;
+}
+#choice{
+    width: 200px;
+    height: 35px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin:20px 300px;
+    padding:0px 20px;
+    text-align-last:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    display: inline-block;
+    margin: none;
+    margin-top: 2px;
+    padding: 4px 4px 0px 0px;
+    font-size: 2rem;
+    
+}
+#alert{
+    border-radius:5px;
+    background-color: #000000;
+    color:rgb(255, 255, 255);
+    padding:4px 12px;
+}
+#submit-area {
+    padding: 3em 0;
+}
+
+button {
+    display: block;
+    padding: 0.5em 2em;
+    font-size: larger;
+    color: white;
+    background-color: #2dc653;
+    border-style: none;
+    box-shadow: 0.2px 2px 5px #000000;
+    transition: all 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    background-color: #33ad52;
+    cursor: pointer;
+}
+#ok{
+    margin:0 auto;
+    border-radius:20px;
+    padding:0.3em 1.8em;
+}
+
+nav {
+    padding:5px 20px;
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    border-bottom: 5px solid red;
+    white-space: nowrap;
+    height:65px;
+}
+
+
+.bottom {
+    padding: 1rem 4rem;
+    border-top: 1px solid rgb(175, 175, 175);
+}
+.material-icons{
+    vertical-align:middle;
+}
+#alert i{
+    color: #cc263c;
+}

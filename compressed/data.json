@@ -1,0 +1,220 @@
+[
+    [
+        null,
+        null
+    ],
+    [
+        {
+            "left": {
+                "left": {
+                    "left": "e",
+                    "right": {
+                        "left": {
+                            "left": "a",
+                            "right": "-"
+                        },
+                        "right": "i"
+                    }
+                },
+                "right": {
+                    "left": "t",
+                    "right": {
+                        "left": {
+                            "left": "h",
+                            "right": "l"
+                        },
+                        "right": "\r"
+                    }
+                }
+            },
+            "right": {
+                "left": {
+                    "left": {
+                        "left": "r",
+                        "right": {
+                            "left": "n",
+                            "right": {
+                                "left": "g",
+                                "right": "y"
+                            }
+                        }
+                    },
+                    "right": {
+                        "left": "o",
+                        "right": {
+                            "left": {
+                                "left": {
+                                    "left": {
+                                        "left": {
+                                            "left": {
+                                                "left": {
+                                                    "left": "+",
+                                                    "right": "?"
+                                                },
+                                                "right": ":"
+                                            },
+                                            "right": {
+                                                "left": {
+                                                    "left": {
+                                                        "left": "P",
+                                                        "right": "1"
+                                                    },
+                                                    "right": {
+                                                        "left": "5",
+                                                        "right": "4"
+                                                    }
+                                                },
+                                                "right": {
+                                                    "left": {
+                                                        "left": "3",
+                                                        "right": "H"
+                                                    },
+                                                    "right": "I"
+                                                }
+                                            }
+                                        },
+                                        "right": {
+                                            "left": "m",
+                                            "right": {
+                                                "left": "\"",
+                                                "right": "O"
+                                            }
+                                        }
+                                    },
+                                    "right": {
+                                        "left": "w",
+                                        "right": {
+                                            "left": "Z",
+                                            "right": {
+                                                "left": {
+                                                    "left": "|",
+                                                    "right": "F"
+                                                },
+                                                "right": "K"
+                                            }
+                                        }
+                                    }
+                                },
+                                "right": "d"
+                            },
+                            "right": {
+                                "left": ">",
+                                "right": {
+                                    "left": "k",
+                                    "right": "u"
+                                }
+                            }
+                        }
+                    }
+                },
+                "right": {
+                    "left": {
+                        "left": {
+                            "left": {
+                                "left": "s",
+                                "right": {
+                                    "left": {
+                                        "left": {
+                                            "left": "<",
+                                            "right": "x"
+                                        },
+                                        "right": "*"
+                                    },
+                                    "right": "="
+                                }
+                            },
+                            "right": "\n"
+                        },
+                        "right": {
+                            "left": "\t",
+                            "right": {
+                                "left": {
+                                    "left": {
+                                        "left": {
+                                            "left": "0",
+                                            "right": "."
+                                        },
+                                        "right": {
+                                            "left": {
+                                                "left": "S",
+                                                "right": "A"
+                                            },
+                                            "right": "U"
+                                        }
+                                    },
+                                    "right": ";"
+                                },
+                                "right": "/"
+                            }
+                        }
+                    },
+                    "right": {
+                        "left": {
+                            "left": {
+                                "left": "f",
+                                "right": {
+                                    "left": "(",
+                                    "right": ")"
+                                }
+                            },
+                            "right": {
+                                "left": {
+                                    "left": {
+                                        "left": "N",
+                                        "right": {
+                                            "left": "R",
+                                            "right": {
+                                                "left": {
+                                                    "left": "B",
+                                                    "right": "!"
+                                                },
+                                                "right": "T"
+                                            }
+                                        }
+                                    },
+                                    "right": {
+                                        "left": {
+                                            "left": {
+                                                "left": "D",
+                                                "right": {
+                                                    "left": "2",
+                                                    "right": {
+                                                        "left": "V",
+                                                        "right": {
+                                                            "left": "#",
+                                                            "right": "\\"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "right": "v"
+                                        },
+                                        "right": "p"
+                                    }
+                                },
+                                "right": {
+                                    "left": {
+                                        "left": "L",
+                                        "right": {
+                                            "left": ",",
+                                            "right": "{"
+                                        }
+                                    },
+                                    "right": {
+                                        "left": {
+                                            "left": "}",
+                                            "right": "b"
+                                        },
+                                        "right": "c"
+                                    }
+                                }
+                            }
+                        },
+                        "right": " "
+                    }
+                }
+            }
+        },
+        3637
+    ]
+]

@@ -1,0 +1,241 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+}
+html,body {
+  margin:0;
+  padding:0;
+}
+a{
+    display: inline-block;
+    height:2rem;
+    border-left: 0.5px solid grey;
+    padding:0px 40px;
+    box-sizing: border-box;
+    color:#000000;
+    text-decoration: none;    
+}
+a:hover{
+    text-decoration: underline;
+}
+a:first-of-type{
+    margin-left:50%;
+}
+label{
+    color:white;
+}
+main {
+    width: 50rem;
+    margin: 0 auto;
+}
+#land{
+  overflow:hidden;
+  height:460px;
+  background: url('https://images.unsplash.com/photo-1618397746666-63405ce5d015?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form{
+    width:50rem;
+}
+
+#back{
+    display: flex;
+    background-color: #4089d8;
+    border: 8px solid #2945e0;
+    border-radius: 0.5em;
+    width: 50rem;
+    height: 10rem;
+    padding:12px;
+    margin:30px 0px;
+}
+#choice{
+    width: 200px;
+    height: 35px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin:20px 300px;
+    padding:0px 20px;
+    text-align-last:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    display: inline-block;
+    margin: none;
+    margin-top: 2px;
+    padding: 4px 4px 0px 0px;
+    font-size: 2rem;
+    
+  }
+#submit-area {
+    padding: 3em 0;
+}
+
+button {
+    display: block;
+    padding: 0.5em 2em;
+    font-size: larger;
+    color: white;
+    background-color: #32e960;
+    border-style: none;
+    box-shadow: 0.2px 2px 5px #000000;
+    transition: all 0.3s;
+    margin: 15px 0;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    background-color: #33ad52;
+    cursor: pointer;
+}
+#ok{
+    margin:0 auto;
+    border-radius:20px;
+    padding:0.3em 1.8em;
+}
+
+nav {
+  padding:5px 20px;
+  background-color: white;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  border-bottom: 5px solid rgb(30, 109, 255);
+  white-space: nowrap;
+  height:65px;
+}
+
+
+.bottom {
+    padding: 1rem 4rem;
+    border-top: 1px solid rgb(175, 175, 175);
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.variants {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 20px 0;
+}
+
+.variants > div {
+  margin-right: 5px;
+}
+
+
+.file {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.file > button {
+  display: none
+}
+
+.file > label {
+  font-size: 1rem;
+  font-weight: 300;
+  cursor: pointer;
+  outline: 0;
+  user-select: none;
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 29%);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.file > label:hover {
+  border-color: hsl(0, 0%, 21%);
+}
+
+.file > label:active {
+  background-color: hsl(0, 0%, 96%);
+}
+
+.file > label > i {
+  padding-right: 5px;
+}
+
+.file--success > label {
+    color: white;
+    background-color:hsl(141, 71%, 48%); ;
+    border-color: hsl(141, 71%, 48%);
+  }
+  
+  .file--success > label:hover {
+    color:hsl(141, 71%, 48%);
+    border-color: hsl(141, 71%, 48%);
+    background-color: hsl(141, 71%, 96%);
+  }
+  
+  .file--success > label:active {
+    background-color: hsl(141, 71%, 91%);
+  }
+  .file--upload > label {
+    color: white;
+    border-color: hsl(268, 86%, 53%);
+    background-color: hsl(268, 86%, 53%);
+  }
+  
+  .file--upload > label:hover {
+    color:hsl(268, 86%, 53%);
+    border-color: hsl(268, 86%, 53%);
+    background-color: hsl(204, 86%, 96%);
+  }
+  
+  .file--upload > label:active {
+    background-color: hsl(204, 86%, 91%);
+  }
+  nav .material-icons{
+    vertical-align: bottom;
+}
+
+
+#og{
+  width: 350px;
+  max-width: 100%;
+  color: #444;
+  padding: 5px;
+  background: none;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bold;
+  /* border: 1px solid rgb(255, 111, 86); */
+}
+#og::file-selector-button {
+  font-weight: bold;
+  margin-right: 20px;
+  border: none;
+  background: rgb(70, 144, 255);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+#og::file-selector-button:hover {
+  background: #1e59bf;
+}

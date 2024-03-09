@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FileZipper</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+
+    <nav>
+        <h1>File Zipper</h1>
+        <a href="/home"><span class="material-icons">home</span> Home</a>
+        <a href="/home"><span class="material-icons">
+                people
+            </span> About Us</a>
+        <a href="https://en.wikipedia.org/wiki/Huffman_coding"><span class="material-icons">
+                contact_support
+            </span> Help</a>
+    </nav>
+    <div id="land">
+
+        <main>
+            <% if(filesize!='' ){%>
+
+                <h3 id="alert"><i class="material-icons">warning</i> Sorry the file size was greater than 20 MB. Try
+                    again with smaller file size.
+                </h3>
+                <% }%>
+                    <h2>Create ZIP File</h2>
+                    <p>With this online ZIP converter you can compress your files and create a ZIP archive. Reduce file
+                        size
+                        and
+                        save bandwidth with ZIP compression.</p>
+                    <div id="back">
+                        <form action="/home" method="post">
+                            <label for="choice">Choose an appropriate file format -- (Accepted file types.txt,.xml.json)
+                                --
+                            </label>
+                            <br>
+                            <select id="choice" name="choice" required>
+                                <option name="opt" value="opt" disabled>-Select an option-</option>
+                                <option name="decompress" value="decompress">Decompress
+                                </option>
+                                <option name="compress" value="compress" selected>Compress</option>
+
+                            </select>
+                            <button id="ok">OK</button>
+                        </form>
+                    </div>
+
+        </main>
+    </div>
+    <div class="bottom">
+        <h3>What is a ZIP file?</h3>
+        <p>
+            ZIP files are also known as "archive" files. They use lossless compression to reduce the file size
+            of
+            the
+            files contained inside the ZIP.
+            Thus, the ZIP file functions as a folder that groups files and uses compression to make it easier to
+            store,
+            send, and share their content.
+        </p>
+    </div>
+    <div class="bottom">
+        <h3>
+            How to compress to ZIP?
+        </h3>
+        <p>
+            1. Upload your files.
+            <br>
+            2. Click on "Start" to begin with the ZIP compression.
+        </p>
+    </div>
+</body>
+
+</html>

@@ -49,7 +49,7 @@ const h = new hashTable();
 
 
 
-let word = "my name is $%balakumar"
+let word = "my name is $%Deepesh"
 
 
 function calculateLetterFrequencies(word) {
